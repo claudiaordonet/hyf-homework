@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOMEWORK WEEK3</title>
+    <link rel="stylesheet" href="./style3.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="flex-container">
+        <img class="logo" src="image/LOGO.jpg" alt="logo company" />
+        <nav class="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="payment">
+        <h1>Sing up to yourcustomtailor.com</h1>
+
+        <h2>Step 4/4 -Payment</h2>
+        <h3>Progress</h3>
+
+        <div class="progress">
+          <div class="progress-fill"></div>
+        </div>
+
+        <p class="info">Please fill in your payment data.</p>
+
+        <form action="./index3.html" method="get">
+          <label for="nameoncard"> Name on card* </label>
+          <input
+            id="nameoncard"
+            type="text"
+            name="name"
+            placeholder="Name on card"
+            required
+          />
+
+          <label for="card-type">Card Type* </label>
+          <input list="card-type" placeholder="Select One" required />
+          <datalist id="card-type">
+            <option>Visa</option>
+            <option>Master Card</option>
+            <option>American Express</option>
+            <option>Diners</option>
+          </datalist>
+
+          <label for="card-number">Card Number* </label>
+          <input
+            id="card-number"
+            type="tel"
+            name="tel"
+            placeholder="Minimum 16 numbers"
+            pattern="[0-9]{16}"
+            maxlength="16"
+            required
+          />
+
+          <label for="first-name">First Name* </label>
+          <input id="first-name" type="text" name="first-name" required />
+
+          <label for="expery-month">Expery Month* </label>
+          <input id="expery-month" type="month" name="date" required />
+
+          <label for="expery-year">Expery Year* </label>
+          <input id="expery-year" type="tel" name="expiry year" required />
+
+          <label for="ccv">CCV* </label>
+          <input
+            id="ccv"
+            type="tel"
+            name="ccv"
+            pattern="[0-9]{3}"
+            maxlength="3"
+            required
+          />
+
+          <label for="submit"> </label>
+          <input id="submit" type="submit" name="boton" />
+
+          <button type="“button”"><a href="index1.html"> HOME </a></button>
+            
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

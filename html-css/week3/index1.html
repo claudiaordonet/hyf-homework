@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEWORK WEEK3 </title>
+    <link rel="stylesheet" href="style1.css">
+
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="flex-container">
+        <img class="logo" src="image/LOGO.JPG" alt="logo company" />
+        <nav class="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+
+    <div class="container">
+      <div class="sign-up-info">
+        <h1>Sing up to yourcustomtailor.com</h1>
+        <h2>Step 2/4 - how can we reach you?</h2>
+        
+        <h3>Progress</h3>
+
+        <div class="progress">
+          <div class="progress-fill"></div>
+        </div>
+        
+        <p>
+          We will probably need to stay in touch somehow. Let is known how we can reach you?
+        </p>
+
+        <form action="./index2.html" method="get">
+          <label for="e-mail">Email* </label>
+          <input
+            id="e-mail"
+            type="email"
+            name="e-mail"
+            placeholder="E-mail"
+            required
+          />
+
+          <label for="phone">Phone </label>
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            placeholder="Phone"
+          />
+
+          <label for="password">Password* </label>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            pattern="[a-zA-Z0-9]+" minlength="4" maxlength="10"
+            placeholder="Password"
+            required
+          />
+          <label for="re-password">Re-enter Password* </label>
+          <input id="re-password" type="password" name="re-password" pattern="[a-zA-Z0-9]+" minlength="10" placeholder="Password" required
+          />
+          <p> I want to sign up for the newsletter  </p>
+
+
+          <div class="radio">
+            <label for="weekly-news">Weekly News</label>
+             <input type="radio" id="weekly-news" name="drone" value="week">
+
+             <label for="monthly-news">Monthly News</label>
+             <input type="radio" id="monthly-news" name="drone" value="month">
+
+              <label for="no-news"> Don't send me News</label>
+             <input type="radio" id="no-news" name="drone" value="no-news">
+            
+          </div>
+  
+          <label for="submit"> </label>   
+          <input id="submit" type="submit" name="boton" />
+          
+          <button type="“button”"><a href="index1.html"> GO </a></button>
+
+          </form>
+
+  </body>
+</html>
