@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOMEWORK WEEK3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="flex-container">
+        <img class="logo" src="LOGO.jpg" alt="logo company" />
+        <nav class="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Product</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sign-up-info">
+        <h1>Sing up to yourcustomtailor.com</h1>
+        <p class="info">
+          We can't wait to help you improve your life-style and gain the
+          attention from people around you!
+        </p>
+        <p class="info">
+          Sign up below to save up to 70% on apparel, hand-bags and cosmetics.
+          Our agents are busy picking the best offers that match your
+          preferences and style. Every week we will send you a hand-picked
+          selection-we just need to know a few details about you first.
+        </p>
+
+        <h2>Step 1/4 - tell us who you are?</h2>
+        <h3>Progress</h3>
+
+        <div class="progress">
+          <div class="progress-fill"></div>
+        </div>
+
+        <p class="info">
+          Nice to meet you. let's spend a minute to get to know each other?
+          Please enter the following:
+        </p>
+
+        <form action="./index1.html" method="get">
+          <label for="name">First Name* </label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="First Name"
+            required
+          />
+
+          <label for="last-name">Last Name* </label>
+          <input
+            id="last-name"
+            type="text"
+            name="last-name"
+            placeholder="Last Name"
+            required
+          />
+
+          <label for="country">Country* </label>
+          <input list="country" placeholder="Select One" required />
+          <datalist id="country">
+            <option>United States</option>
+            <option>Canada</option>
+            <option>Mexico</option>
+            <option>Panama</option>
+            <option>Argentina</option>
+            <option>Chile</option>
+            <option>Brasil</option>
+            <option>Other</option>
+          </datalist>
+
+          <label for="street-address">Street Address* </label>
+          <input
+            id="street-address"
+            type="text"
+            name="street-address"
+            placeholder="Street Address"
+            required
+          />
+
+          <label for="post-code">Post Code* </label>
+          <input
+            id="post-code"
+            type="text"
+            name="post-code"
+            placeholder="Post Code"
+            required
+          />
+
+          <div class="message">
+            <div class="child-message1">
+              <div class="profile-decription">
+                <label for="tex-area">Profile Description: </label>
+              </div>
+
+              <div class="text-area-info">
+                <p>
+                  Please provide a short description of yourself to be displayed
+                  on our social community pages
+                </p>
+              </div>
+            </div>
+
+            <div class="child-message2">
+              <textarea
+                id="text-area"
+                name="text-area"
+                rows="4"
+                cols="50"
+                maxlength="500"
+              >
+              </textarea>
+            </div>
+          </div>
+          <p>
+            Use the same address for billing and shipping? Uncheck below to fill
+            out a separate shipping address.
+          </p>
+
+          <div class="shipping">
+            <label for="shipping-address">Shipping Address</label>
+            <input
+              id="shipping-address"
+              type="checkbox"
+              name="shipping-address"
+            />
+          </div>
+
+          <label for="submit"></label>
+          <input id="submit" type="submit" name="submit" />
+
+          <button type="“button”"><a href="index1.html"> GO </a></button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
