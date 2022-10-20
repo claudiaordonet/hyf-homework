@@ -10,10 +10,8 @@ let gardenSizeInM2 = 100;
 let housePricePeter = volumeInMeters * 2.5 * 1000 + gardenSizeInM2 * 300;
 
 if (housePricePeter < 2500000) {
-  housePricePeter = "Peter overpaid";
+  console.log("Peter overpaid for the house");
 }
-
-console.log(housePricePeter);
 
 let houseWidth2 = 5;
 let houseDeep2 = 11;
@@ -25,9 +23,7 @@ let gardenSizeInM2julia = 70;
 let housePricejulia = volumeInMeters2 * 2.5 * 1000 + gardenSizeInM2julia * 300;
 
 if (housePricejulia > 1000000) {
-  housePricejulia = "Julia paid a good price";
+  console.log("Julia paid a good price");
 } else {
-  housePricejulia = "Julia overpaid";
+  console.log("Julia overpaid");
 }
-
-console.log(housePricejulia);
